@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!-- saved from url=(0048)http://127.0.0.1:5500/html%20tutorial/hello.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+ 
+ 
+   
+    
+    <title>YACHI</title>
+   
+</head>
+<body>
+  <center><h1>My Bestfriend Yachuuuu....</h1></center>
+  <img src="./index_files/yachuuu.jpg" width="300">
+  
+    
+    <p>"I want you to know that I'm blessed to have a great friend like you. Your friendship is more precious than gold and silver, and you've touched my heart in so many ways. I'm so grateful for every moment we've shared, the joy, the laughter, and all the support you've given me. You're the best thing that ever happened to me, and I'm so lucky to have you as my best friend."</p>
+    <hr>
+    <img src="./index_files/yx.jpg" width="300">
+    
+    <p>"You've always been by my side, from when we were little kids with scraped knees to navigating life's bigger challenges. We've always had each other's backs, and you're the best friend anyone could ask for. No matter where life takes us, I know we'll always stick together. You are more than a friend; you're my partner-in-crime, my other half, and the person who knows me better than I know myself."</p>
+    <hr>
+    <img src="./index_files/yyy.jpg" width="300">
+
+    <p>"Thank you for being my biggest supporter and reminding me of my worth when I've felt at my lowest. Thank you for the endless laughs, the honest conversations, and for being my constant through all of life's moods. You're a blessing to me, and knowing you're on my side means so much."</p>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
